@@ -1,0 +1,7 @@
+com\connectly\EntityMappingTests.class
+com\connectly\ConnectlyApplicationTests.class
+com\connectly\ChatControllerTests.class
+com\connectly\HealthControllerTests.class
+com\connectly\UserControllerTests.class
+com\connectly\AuthControllerTests.class
+com\connectly\ConnectionControllerTests.class
