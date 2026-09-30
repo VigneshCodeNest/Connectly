@@ -1,0 +1,177 @@
+# ============================================================
+# CONNECTLY - Full Stack Messaging Application
+# ============================================================
+
+# ------------------------------------------------------------
+# Operating System Files
+# ------------------------------------------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ------------------------------------------------------------
+# IDE / Editor Files
+# ------------------------------------------------------------
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+
+# ------------------------------------------------------------
+# Frontend - React / Node.js
+# ------------------------------------------------------------
+
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# npm
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Environment variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Keep example environment file
+!frontend/.env.example
+
+# ------------------------------------------------------------
+# Backend - Java / Spring Boot / Maven
+# ------------------------------------------------------------
+
+backend/target/
+backend/.mvn/timing.properties
+
+# Maven generated files
+backend/*.log
+backend/logs/
+
+# Spring Boot environment files
+backend/.env
+backend/.env.local
+
+# Keep example environment file
+!backend/.env.example
+
+# ------------------------------------------------------------
+# Java Generated Files
+# ------------------------------------------------------------
+
+*.class
+*.jar
+*.war
+*.ear
+
+# ------------------------------------------------------------
+# Logs
+# ------------------------------------------------------------
+
+*.log
+logs/
+
+# ------------------------------------------------------------
+# Environment / Secrets
+# ------------------------------------------------------------
+
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Secret configuration files
+application-local.properties
+application-local.yml
+application-secret.properties
+application-secret.yml
+
+# ------------------------------------------------------------
+# Database Files
+# ------------------------------------------------------------
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ------------------------------------------------------------
+# Temporary Files
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ------------------------------------------------------------
+# Build / Cache Files
+# ------------------------------------------------------------
+
+.cache/
+.temp/
+.tmp/
+
+# ------------------------------------------------------------
+# Coverage / Test Reports
+# ------------------------------------------------------------
+
+coverage/
+.nyc_output/
+
+# ------------------------------------------------------------
+# Uploaded / Generated Media
+# ------------------------------------------------------------
+
+# Do not commit user-uploaded files
+uploads/
+media/
+
+# ------------------------------------------------------------
+# Security / Credentials
+# ------------------------------------------------------------
+
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+# ------------------------------------------------------------
+# Miscellaneous
+# ------------------------------------------------------------
+
+.DS_Store
